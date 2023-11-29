@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GenshinTeams.iml" filepath="$PROJECT_DIR$/.idea/GenshinTeams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GenshinHelper.iml" filepath="$PROJECT_DIR$/.idea/GenshinHelper.iml" />
     </modules>
   </component>
 </project>
