@@ -48,6 +48,7 @@ YAOYAO = 41
 NEUVILLETTE = 42
 FURINA = 43
 CHARLOTTE = 44
+NAVIA = 45
 
 
 # Possible expansion is to make an ARCHETYPE Class to sort every team into archetypes
@@ -188,6 +189,19 @@ def initializeGoodTeams(characterList):  # TODO uncomment Charlotte when leveled
         Team(characterList[YELAN], characterList[BENNETT], characterList[WANDERER], characterList[Zhongli]),
         Team(characterList[XINGQUI], characterList[BENNETT], characterList[WANDERER], characterList[Zhongli]),
         Team(characterList[FARUZAN], characterList[BENNETT], characterList[WANDERER], characterList[JEAN]),
+        Team(characterList[NAHIDA], characterList[FURINA], characterList[RAIDEN], characterList[Zhongli]),
+        Team(characterList[NAHIDA], characterList[VENTI], characterList[RAIDEN], characterList[Zhongli]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
+        Team(characterList[ALEBEDO], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
+        Team(characterList[FURINA], characterList[ALEBEDO], characterList[NOELLE], characterList[NAVIA]),
+        Team(characterList[FURINA], characterList[NAVIA], characterList[NOELLE], characterList[Zhongli]),
+        Team(characterList[XINGQUI], characterList[FISCHL], characterList[NAVIA], characterList[BEIDOU]),
+        Team(characterList[XINGQUI], characterList[FISCHL], characterList[NAVIA], characterList[ALEBEDO]),
+        Team(characterList[YELAN], characterList[FISCHL], characterList[NAVIA], characterList[Zhongli]),
+        Team(characterList[XINGQUI], characterList[NAHIDA], characterList[NAVIA], characterList[RAIDEN]),
+        Team(characterList[XINGQUI], characterList[NAHIDA], characterList[NAVIA], characterList[KUKI]),
+        Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[NAVIA]),
+        Team(characterList[Zhongli], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
 
     ]
 
@@ -228,6 +242,7 @@ def initializeTeams(characterList):
         Team(characterList[FURINA], characterList[BENNETT], characterList[KOKOMI], characterList[XIANGLING]),
         Team(characterList[FURINA], characterList[BENNETT], characterList[HEIZOU], characterList[XIANGLING]),
         Team(characterList[FURINA], characterList[BENNETT], characterList[CANDACE], characterList[XIANGLING]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
 
         # ANEMO National Teams
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[NEUVILLETTE], characterList[XIANGLING]),
@@ -245,6 +260,8 @@ def initializeTeams(characterList):
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[DILUC], characterList[XIANGLING]),
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[KLEE], characterList[XIANGLING]),
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[HUTAO], characterList[XIANGLING]),
+        Team(characterList[ALEBEDO], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
+        Team(characterList[Zhongli], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
 
         # Mono Hydro
         Team(characterList[XINGQUI], characterList[YELAN], characterList[KOKOMI], characterList[FURINA]),
@@ -265,6 +282,8 @@ def initializeTeams(characterList):
         Team(characterList[XINGQUI], characterList[YELAN], characterList[NOELLE], characterList[FURINA]),
         Team(characterList[FURINA], characterList[GOROU], characterList[NOELLE], characterList[Zhongli]),
         Team(characterList[FURINA], characterList[GOROU], characterList[NOELLE], characterList[ALEBEDO]),
+        Team(characterList[FURINA], characterList[ALEBEDO], characterList[NOELLE], characterList[NAVIA]),
+        Team(characterList[FURINA], characterList[NAVIA], characterList[NOELLE], characterList[Zhongli]),
 
         # Nilou
         Team(characterList[TRAVELER], characterList[KOKOMI], characterList[NAHIDA], characterList[NILOU]),
@@ -322,6 +341,9 @@ def initializeTeams(characterList):
         Team(characterList[XINGQUI], characterList[JEAN], characterList[RAIDEN], characterList[FURINA]),
         Team(characterList[XINGQUI], characterList[JEAN], characterList[YAEMIKO], characterList[FURINA]),
         Team(characterList[FURINA], characterList[FISCHL], characterList[NOELLE], characterList[BEIDOU]),
+        Team(characterList[XINGQUI], characterList[FISCHL], characterList[NAVIA], characterList[BEIDOU]),
+        Team(characterList[XINGQUI], characterList[FISCHL], characterList[NAVIA], characterList[ALEBEDO]),
+        Team(characterList[YELAN], characterList[FISCHL], characterList[NAVIA], characterList[Zhongli]),
 
         # Hyperbloom
         Team(characterList[XINGQUI], characterList[YELAN], characterList[NAHIDA], characterList[RAIDEN]),
@@ -382,6 +404,9 @@ def initializeTeams(characterList):
         Team(characterList[NAHIDA], characterList[FURINA], characterList[NOELLE], characterList[YAEMIKO]),
         Team(characterList[NAHIDA], characterList[FURINA], characterList[NEUVILLETTE], characterList[RAIDEN]),
         Team(characterList[NAHIDA], characterList[FURINA], characterList[NEUVILLETTE], characterList[KUKI]),
+        Team(characterList[NAHIDA], characterList[FURINA], characterList[RAIDEN], characterList[Zhongli]),
+        Team(characterList[XINGQUI], characterList[NAHIDA], characterList[NAVIA], characterList[RAIDEN]),
+        Team(characterList[XINGQUI], characterList[NAHIDA], characterList[NAVIA], characterList[KUKI]),
 
         # HyperFridge
         Team(characterList[XINGQUI], characterList[LAYLA], characterList[NAHIDA], characterList[RAIDEN]),
@@ -468,6 +493,7 @@ def initializeTeams(characterList):
         Team(characterList[NAHIDA], characterList[YAEMIKO], characterList[RAIDEN], characterList[Zhongli]),
         Team(characterList[NAHIDA], characterList[KUKI], characterList[TIGHNARI], characterList[YAEMIKO]),
         Team(characterList[NAHIDA], characterList[KUKI], characterList[TIGHNARI], characterList[FISCHL]),
+        Team(characterList[NAHIDA], characterList[VENTI], characterList[RAIDEN], characterList[Zhongli]),
 
         # Raiden Hyper
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[RAIDEN], characterList[SARA]),
@@ -521,7 +547,7 @@ def initializeTeams(characterList):
         Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[Zhongli]),
         Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[FISCHL]),
         Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[XIANGLING]),
-
+        Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[NAVIA]),
 
     ]
     return teamList
