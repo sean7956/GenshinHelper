@@ -210,6 +210,9 @@ def initializeGoodTeams(characterList):  # TODO uncomment Charlotte when leveled
         Team(characterList[FISCHL], characterList[BEIDOU], characterList[NAVIA], characterList[Zhongli]),
         Team(characterList[XINGQUI], characterList[ALEBEDO], characterList[NAVIA], characterList[YELAN]),
         Team(characterList[XINGQUI], characterList[YELAN], characterList[NAVIA], characterList[Zhongli]),
+        Team(characterList[FURINA], characterList[BENNETT], characterList[NILOU], characterList[XIANGLING]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[FURINA], characterList[XIANGLING]),
+        Team(characterList[YELAN], characterList[BENNETT], characterList[FURINA], characterList[XIANGLING]),
 
     ]
 
@@ -583,3 +586,8 @@ def compareTeamLists(teamList1, teamList2):
             leftoverTeams.remove(i)
     for i in leftoverTeams:
         print(i)
+
+def teamsWith(teamList, character):
+    for i in teamList:
+        if i.hasCharacter(character):
+            print(i)
