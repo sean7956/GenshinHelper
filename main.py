@@ -5,6 +5,8 @@ from InitializeTeams import initializeTeams
 from InitializeTeams import initializeGoodTeams
 from InitializeTeams import compareTeamLists
 from InitializeTeams import teamsWith
+import AbyssRandomize
+
 # <editor-fold desc="Character variables">
 TRAVELER = 0
 JEAN = 1
@@ -55,14 +57,18 @@ NAVIA = 45
 # </editor-fold>
 
 
+def printTeamsWithCharacter(teams, character):  # Prints the list of all teams with a certain character
+    checker = teamsWith(teams, characterList[character])
+    for i in checker:
+        print(i)
 
-import AbyssRandomize
 
 characterList = initializeCharacters()  # List of every character I will use
 badteamList = initializeTeams(characterList) # List of made teams
-teamList = initializeGoodTeams(characterList)
+teamList = initializeGoodTeams(characterList) # List of every good team
 
-teamsWith(teamList, characterList[WANDERER])  # Shows the teams with the specified character
+printTeamsWithCharacter(teamList, NOELLE)
 
 # AbyssRandomize.randomTeams(teamList)  # Prints 2 random teams
+
 # compareTeamLists(badteamList, teamList)  #  checks to see all teams in badteamList but not teamList

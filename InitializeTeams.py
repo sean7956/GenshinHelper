@@ -588,6 +588,9 @@ def compareTeamLists(teamList1, teamList2):
         print(i)
 
 def teamsWith(teamList, character):
+    newList = []
     for i in teamList:
         if i.hasCharacter(character):
-            print(i)
+            newList.append(i)
+            #print(i)
+    return newList
