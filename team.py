@@ -52,5 +52,14 @@ class Team:
 
         return False
 
+    def __eq__(self, other):
+        comparator = False
+        for i in range(4):
+            if self.characters[i] != other.characters[i]:
+                return False
+        return True
+
+
+
 
 
