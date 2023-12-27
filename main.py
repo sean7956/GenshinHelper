@@ -67,8 +67,9 @@ characterList = initializeCharacters()  # List of every character I will use
 badteamList = initializeTeams(characterList) # List of made teams
 teamList = initializeGoodTeams(characterList) # List of every good team
 
-printTeamsWithCharacter(teamList, NOELLE)
+# printTeamsWithCharacter(teamList, NOELLE)  # Prints out all teams with the specified character
 
-# AbyssRandomize.randomTeams(teamList)  # Prints 2 random teams
+
+AbyssRandomize.randomTeams(teamList)  # Prints 2 random teams
 
 # compareTeamLists(badteamList, teamList)  #  checks to see all teams in badteamList but not teamList

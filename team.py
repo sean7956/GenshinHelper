@@ -48,7 +48,6 @@ class Team:
         for i in range(4):
             for j in range(4):
                 if self.characters[i] == team2.characters[j]:
-                    print(self.character[i])
                     return True
 
         return False
