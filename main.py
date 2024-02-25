@@ -54,6 +54,10 @@ NEUVILLETTE = 42
 FURINA = 43
 CHARLOTTE = 44
 NAVIA = 45
+DORI = 46
+FREMINET = 47
+CHILDE = 48
+
 # </editor-fold>
 
 
@@ -70,6 +74,6 @@ teamList = initializeGoodTeams(characterList) # List of every good team
 # printTeamsWithCharacter(teamList, NOELLE)  # Prints out all teams with the specified character
 
 
-AbyssRandomize.randomTeams(teamList)  # Prints 2 random teams
+AbyssRandomize.randomTeams(badteamList)  # Prints 2 random teams
 
 # compareTeamLists(badteamList, teamList)  #  checks to see all teams in badteamList but not teamList
