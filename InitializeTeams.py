@@ -593,7 +593,7 @@ def initializeTeams(characterList):
         # Neuvillette
         Team(characterList[KAZUHA], characterList[FURINA], characterList[NEUVILLETTE], characterList[Zhongli]),
         Team(characterList[KAZUHA], characterList[FURINA], characterList[NEUVILLETTE], characterList[FISCHL]),
-        Team(characterList[KAZUHA], characterList[FURINA], characterList[NEUVILLETTE], characterLwist[XIANGLING]),
+        Team(characterList[KAZUHA], characterList[FURINA], characterList[NEUVILLETTE], characterList[XIANGLING]),
         Team(characterList[KAZUHA], characterList[ALEBEDO], characterList[NEUVILLETTE], characterList[Zhongli]),
         Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[Zhongli]),
         Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[FISCHL]),
@@ -618,7 +618,7 @@ def initializeTeams(characterList):
 
 def initializeYSHelperTeams(characterList):
     teamlist = [
-        Team(characterList[NAHIDA], characterList[YAEMIKO], characterList[YAEMIKO], characterList[Zhongli]),
+        Team(characterList[NAHIDA], characterList[YAEMIKO], characterList[TIGHNARI], characterList[Zhongli]),
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[CHILDE], characterList[XIANGLING]),
         Team(characterList[XINGQUI], characterList[YELAN], characterList[HUTAO], characterList[Zhongli]),
         Team(characterList[XINGQUI], characterList[YELAN], characterList[NAHIDA], characterList[KUKI]),
@@ -654,7 +654,7 @@ def initializeYSHelperTeams(characterList):
         Team(characterList[YAOYAO], characterList[KOKOMI], characterList[NAHIDA], characterList[NILOU]),
         Team(characterList[KAZUHA], characterList[RAIDEN], characterList[NEUVILLETTE], characterList[FURINA]),
         Team(characterList[FURINA], characterList[JEAN], characterList[NEUVILLETTE], characterList[FISCHL]),
-        Team(characterList[NAHIDA], characterList[YAEMIKO], characterList[YAEMIKO], characterList[LAYLA]),
+        Team(characterList[NAHIDA], characterList[YAEMIKO], characterList[TIGHNARI], characterList[LAYLA]),
         Team(characterList[KAZUHA], characterList[FISCHL], characterList[NEUVILLETTE], characterList[Zhongli]),
         Team(characterList[VENTI], characterList[FURINA], characterList[NEUVILLETTE], characterList[Zhongli]),
 

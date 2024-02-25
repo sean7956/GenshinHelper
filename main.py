@@ -3,6 +3,8 @@ from team import Team
 from initializeCharacters import initializeCharacters
 from InitializeTeams import initializeTeams
 from InitializeTeams import initializeGoodTeams
+from InitializeTeams import initializeYSHelperTeams
+
 from InitializeTeams import compareTeamLists
 from InitializeTeams import teamsWith
 import AbyssRandomize
@@ -70,10 +72,10 @@ def printTeamsWithCharacter(teams, character):  # Prints the list of all teams w
 characterList = initializeCharacters()  # List of every character I will use
 badteamList = initializeTeams(characterList) # List of made teams
 teamList = initializeGoodTeams(characterList) # List of every good team
-
+YSHelper = initializeYSHelperTeams(characterList)
 # printTeamsWithCharacter(teamList, NOELLE)  # Prints out all teams with the specified character
 
 
-AbyssRandomize.randomTeams(badteamList)  # Prints 2 random teams
+AbyssRandomize.randomTeams(YSHelper)  # Prints 2 random teams
 
 # compareTeamLists(badteamList, teamList)  #  checks to see all teams in badteamList but not teamList
