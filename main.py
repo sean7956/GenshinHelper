@@ -59,6 +59,7 @@ NAVIA = 45
 DORI = 46
 FREMINET = 47
 CHILDE = 48
+GAMING = 49
 
 # </editor-fold>
 

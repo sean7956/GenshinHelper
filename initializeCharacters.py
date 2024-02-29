@@ -52,6 +52,8 @@ def initializeCharacters():
     characterList.append(Character("Freminet", "Cryo", "DPS", ))
     characterList.append(Character("Dori", "Electro", "Healer", "DPS"))
     characterList.append(Character("Childe", "Hydro", "DPS"))
+    characterList.append(Character("Gaming", "Pyro", "DPS"))
+
 
 
     return characterList

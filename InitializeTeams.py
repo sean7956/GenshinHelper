@@ -52,6 +52,7 @@ NAVIA = 45
 DORI = 46
 FREMINET = 47
 CHILDE = 48
+GAMING = 49
 
 
 # Possible expansion is to make an ARCHETYPE Class to sort every team into archetypes
@@ -284,6 +285,7 @@ def initializeTeams(characterList):
         Team(characterList[FURINA], characterList[BENNETT], characterList[CANDACE], characterList[XIANGLING]),
         Team(characterList[XINGQUI], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
         Team(characterList[FURINA], characterList[BENNETT], characterList[NAVIA], characterList[XIANGLING]),
+        Team(characterList[FURINA], characterList[BENNETT], characterList[VENTI], characterList[XIANGLING]),
 
         # ANEMO National Teams
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[NEUVILLETTE], characterList[XIANGLING]),
@@ -301,6 +303,7 @@ def initializeTeams(characterList):
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[DILUC], characterList[XIANGLING]),
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[KLEE], characterList[XIANGLING]),
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[HUTAO], characterList[XIANGLING]),
+
 
 
         # Mono Hydro
@@ -357,12 +360,14 @@ def initializeTeams(characterList):
         Team(characterList[FURINA], characterList[JEAN], characterList[FREMINET], characterList[SHENHE]),
         Team(characterList[KAZUHA], characterList[KOKOMI], characterList[FREMINET], characterList[SHENHE]),
 
+
         # Melt
         Team(characterList[XIANGLING], characterList[BENNETT], characterList[GANYU], characterList[Zhongli]),
         Team(characterList[NAHIDA], characterList[BENNETT], characterList[GANYU], characterList[Zhongli]),
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[SHENHE], characterList[CHONGYUN]),
         Team(characterList[CHONGYUN], characterList[BENNETT], characterList[SHENHE], characterList[XIANGLING]),
         Team(characterList[KAZUHA], characterList[BENNETT], characterList[KAEYA], characterList[ROSARIA]),
+        Team(characterList[ROSARIA], characterList[BENNETT], characterList[GAMING], characterList[DIONA]),
 
         # Taser
         Team(characterList[XINGQUI], characterList[FISCHL], characterList[SUCROSE], characterList[BEIDOU]),
@@ -612,6 +617,16 @@ def initializeTeams(characterList):
         Team(characterList[XINGQUI], characterList[ALEBEDO], characterList[NAVIA], characterList[YELAN]),
         Team(characterList[XINGQUI], characterList[YELAN], characterList[NAVIA], characterList[Zhongli]),
         Team(characterList[SHENHE], characterList[GANYU], characterList[NAVIA], characterList[Zhongli]),
+
+
+        # OTHER
+        Team(characterList[NAHIDA], characterList[CANDACE], characterList[ALEBEDO], characterList[ROSARIA]), # Full EM Albedo
+        Team(characterList[NAHIDA], characterList[BENNETT], characterList[ALEBEDO], characterList[FURINA]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[ALEBEDO], characterList[NAHIDA]),
+        Team(characterList[YELAN], characterList[BENNETT], characterList[ALEBEDO], characterList[NAHIDA]),
+        Team(characterList[FARUZAN], characterList[BENNETT], characterList[VENTI], characterList[FURINA]),
+        Team(characterList[FARUZAN], characterList[BENNETT], characterList[VENTI], characterList[XIANGLING]),
+        Team(characterList[FARUZAN], characterList[BENNETT], characterList[VENTI], characterList[KAZUHA]),
 
     ]
     return teamList
