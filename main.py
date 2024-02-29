@@ -77,6 +77,6 @@ YSHelper = initializeYSHelperTeams(characterList)
 # printTeamsWithCharacter(teamList, NOELLE)  # Prints out all teams with the specified character
 
 
-AbyssRandomize.randomTeams(YSHelper)  # Prints 2 random teams
+AbyssRandomize.randomTeams(badteamList)  # Prints 2 random teams
 
 # compareTeamLists(badteamList, teamList)  #  checks to see all teams in badteamList but not teamList
