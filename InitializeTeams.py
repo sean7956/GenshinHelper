@@ -53,6 +53,8 @@ DORI = 46
 FREMINET = 47
 CHILDE = 48
 GAMING = 49
+ARLECCHINO = 50
+CHEVREUSE = 51
 
 
 # Possible expansion is to make an ARCHETYPE Class to sort every team into archetypes
@@ -320,6 +322,7 @@ def initializeTeams(characterList):
         Team(characterList[KAZUHA], characterList[XINGQUI], characterList[KOKOMI], characterList[YELAN]),
         Team(characterList[KAZUHA], characterList[FURINA], characterList[KOKOMI], characterList[YELAN]),
         Team(characterList[CANDACE], characterList[JEAN], characterList[XINGQUI], characterList[FURINA]),
+        Team(characterList[YELAN], characterList[JEAN], characterList[NILOU], characterList[FURINA]),
 
         # MONO Cryo
         Team(characterList[KAZUHA], characterList[LAYLA], characterList[SHENHE], characterList[CHONGYUN]),
@@ -634,6 +637,23 @@ def initializeTeams(characterList):
         Team(characterList[XINGQUI], characterList[YELAN], characterList[NAVIA], characterList[Zhongli]),
         Team(characterList[SHENHE], characterList[GANYU], characterList[NAVIA], characterList[Zhongli]),
 
+
+        # Arlecchino Teams
+        Team(characterList[KAZUHA], characterList[BENNETT], characterList[ARLECCHINO], characterList[XIANGLING]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[ARLECCHINO], characterList[YELAN]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[ARLECCHINO], characterList[FURINA]),
+        Team(characterList[YELAN], characterList[BENNETT], characterList[ARLECCHINO], characterList[FURINA]),
+        Team(characterList[XINGQUI], characterList[NAHIDA], characterList[ARLECCHINO], characterList[Zhongli]),
+        Team(characterList[YELAN], characterList[NAHIDA], characterList[ARLECCHINO], characterList[Zhongli]),
+        Team(characterList[NAHIDA], characterList[FURINA], characterList[ARLECCHINO], characterList[Zhongli]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[ARLECCHINO], characterList[BEIDOU]),
+        Team(characterList[XINGQUI], characterList[BENNETT], characterList[ARLECCHINO], characterList[FISCHL]),
+        Team(characterList[ALEBEDO], characterList[BENNETT], characterList[ARLECCHINO], characterList[Zhongli]),
+        Team(characterList[KAZUHA], characterList[BENNETT], characterList[ARLECCHINO], characterList[CANDACE]),
+        Team(characterList[KAZUHA], characterList[BENNETT], characterList[ARLECCHINO], characterList[FURINA]),
+        Team(characterList[ROSARIA], characterList[BENNETT], characterList[ARLECCHINO], characterList[KAEYA]),
+        Team(characterList[CHEVREUSE], characterList[BENNETT], characterList[ARLECCHINO], characterList[FISCHL]),
+        Team(characterList[CHEVREUSE], characterList[BEIDOU], characterList[ARLECCHINO], characterList[FISCHL]),
 
         # OTHER
         Team(characterList[NAHIDA], characterList[CANDACE], characterList[ALEBEDO], characterList[ROSARIA]), # Full EM Albedo

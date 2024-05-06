@@ -60,6 +60,9 @@ DORI = 46
 FREMINET = 47
 CHILDE = 48
 GAMING = 49
+ARLECCHINO = 50
+CHEVREUSE = 51
+
 
 # </editor-fold>
 
