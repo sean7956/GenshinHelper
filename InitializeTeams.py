@@ -110,14 +110,10 @@ def initializeGreatTeams(characterList):
 
         Team(characterList[KAZUHA], characterList[FURINA], characterList[KOKOMI], characterList[YELAN]),
         Team(characterList[NAHIDA], characterList[FISCHL], characterList[KOKOMI], characterList[RAIDEN]),
+        Team(characterList[FURINA], characterList[FISCHL], characterList[KOKOMI], characterList[BEIDOU]),
 
         Team(characterList[FARUZAN], characterList[BENNETT], characterList[WANDERER], characterList[Zhongli]),
         Team(characterList[XINGQUI], characterList[FURINA], characterList[HUTAO], characterList[Zhongli]),
-
-
-
-
-
 
     ]
 
