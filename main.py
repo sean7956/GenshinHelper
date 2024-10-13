@@ -3,6 +3,8 @@ from team import Team
 from initializeCharacters import initializeCharacters
 from InitializeTeams import initializeTeams
 from InitializeTeams import initializeGoodTeams
+from InitializeTeams import initializeGreatTeams
+
 from InitializeTeams import initializeYSHelperTeams
 
 from InitializeTeams import compareTeamLists
@@ -29,7 +31,7 @@ VENTI = 15
 KLEE = 16
 DIONA = 17
 Zhongli = 18
-ALEBEDO = 19
+ALBEDO = 19
 GANYU = 20
 HUTAO = 21
 ROSARIA = 22
@@ -62,6 +64,12 @@ CHILDE = 48
 GAMING = 49
 ARLECCHINO = 50
 CHEVREUSE = 51
+CHLORINDE = 52
+KIRARA = 53
+KINICH = 54
+DEHYA = 55
+MIKA = 56
+BARBARA = 57
 
 
 # </editor-fold>
@@ -76,10 +84,11 @@ def printTeamsWithCharacter(teams, character):  # Prints the list of all teams w
 characterList = initializeCharacters()  # List of every character I will use
 badteamList = initializeTeams(characterList) # List of made teams
 teamList = initializeGoodTeams(characterList) # List of every good team
+greatteamlist = initializeGreatTeams(characterList)
 YSHelper = initializeYSHelperTeams(characterList)
 # printTeamsWithCharacter(teamList, NOELLE)  # Prints out all teams with the specified character
 
 
-AbyssRandomize.randomTeams(badteamList)  # Prints 2 random teams
+AbyssRandomize.randomTeams(greatteamlist)  # Prints 2 random teams
 
 # compareTeamLists(badteamList, teamList)  #  checks to see all teams in badteamList but not teamList
